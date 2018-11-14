@@ -22,4 +22,18 @@ geckodriver
 
 /usr/local/bin/geckodriver
 
+### Запуск примера
+
+> Устанавливаем библиотеки для работы NodeJS
+
+npm install
+
+> Запускаем сервер
+
+npm start
+
+> Открываем второй терминал
+
+python3 p2.py
+
 
