@@ -6,3 +6,7 @@
 
 sudo pip install selenium
 
+> Заходим в папку по адресу
+
+/usr/local/bin
+
