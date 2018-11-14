@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Сумма чисел</title>
+    <style>
+        body {
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<p>Число А</p>
+<input type = "text" id = "t1">
+
+<br><br>
+
+<p>Число Б</p>
+<input type = "text" id = "t2">
+
+<br><br>
+
+<button id = "b1">Получить ответ</button>
+
+<br><br>
+
+<div id = "resultBox"></div>
+
+<script>
+    let t1 = undefined;
+    let t2 = undefined;
+    let b1 = undefined;
+    let resultBox = undefined;
+
+    window.onload = function () {
+        t1 = document.getElementById("t1");
+        t2 = document.getElementById("t2");
+        b1 = document.getElementById("b1");
+        resultBox = document.getElementById("resultBox");
+
+        b1.onclick = function () {
+            const a = t1.value;
+            const b = t2.value;
+            const result = parseInt(a) + parseInt(b);
+            resultBox.innerHTML = result.toString();
+        }
+    }
+</script>
+
+
+</body>
+</html>
