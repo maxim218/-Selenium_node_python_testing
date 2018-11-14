@@ -10,3 +10,16 @@ sudo pip install selenium
 
 /usr/local/bin
 
+> Копируем в данную папку файлы
+
+chromedriver
+
+geckodriver
+
+> Теперь файлы находятся по пути
+
+/usr/local/bin/chromedriver
+
+/usr/local/bin/geckodriver
+
+
